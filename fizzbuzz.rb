@@ -1,11 +1,11 @@
 require 'pry'
 def fizzbuzz(num)
   if num % 5 == 0 && num % 3 == 0
-    "Fuckoff"
+    "FizzBuzz"
   elsif num % 5 == 0
-    "Cunt"
+    "Buzz"
   elsif num % 3 == 0
-    "Clit"
+    "Fizz"
   else
     nil
   end
